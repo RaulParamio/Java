@@ -2,12 +2,6 @@ package model;
 
 import org.hibernate.Session;
 
-import org.hibernate.Transaction;
-
-import model.HibernateUtil;
-
-import lombok.extern.slf4j.Slf4j;
-
 public class Test {
 
 	public static void main(String[] args) {
@@ -24,7 +18,7 @@ public class Test {
 
 		} finally {
 
-//		HibernateUtil.closeSessionFactory();
+		//HibernateUtil.closeSessionFactory();
 
 		}
 

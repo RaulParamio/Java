@@ -2,6 +2,7 @@ package model;
 
 public class Main {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		RepositorioHibernateClienteImpl repohcli = new RepositorioHibernateClienteImpl();		

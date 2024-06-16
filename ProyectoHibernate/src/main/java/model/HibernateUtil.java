@@ -191,6 +191,7 @@ public class HibernateUtil {
 
 	}
 
+	@SuppressWarnings("unused")
 	private static DataSource getH2DataSource() {
 
 		JdbcDataSource ds = new JdbcDataSource();
