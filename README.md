@@ -1,0 +1,1 @@
+Este proyecto es una aplicación Java que utiliza Hibernate ORM para la interacción con bases de datos. El proyecto está organizado en varias clases e interfaces que administran datos de clientes y pedidos
