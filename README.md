@@ -5,9 +5,9 @@ Una interfaz genérica que define operaciones CRUD comunes ( count, deleteById, 
 Esta interfaz es implementada por las clases del repositorio para administrar Cliente y Pedidos.
 
 2. Implementación del repositorio Hibernate (RepositorioHibernateClienteImpl y RepositorioHibernatePedidosImpl)
-Estas clases implementan la IRepositoriointerfaz, proporcionando implementaciones específicas para entidades Cliente y Pedidos
+Estas clases implementan la IRepositorio interfaz, proporcionando implementaciones específicas para entidades Cliente y Pedidos
 Utilizan sesiones de Hibernate para ejecutar consultas SQL, manejar transacciones y administrar las entidades en la base de datos.
 
 3. Entidades (Cliente.java, Pedidos.java)
-Las clases Clientey Pedidosrepresentan la estructura de datos de los clientes y pedidos en el sistema.
-Estas entidades se asignan a las tablas de la base de datos mediante anotaciones de Hibernate
+Las clases Cliente y Pedidos representan la estructura de datos de los clientes y pedidos en el sistema.
+Estas entidades se asignan a las tablas de la base de datos mediante anotaciones de Hibernate.
