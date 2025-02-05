@@ -16,3 +16,6 @@ Utilizan sesiones de Hibernate para ejecutar consultas SQL, manejar transaccione
 3. Entidades (Cliente.java, Pedidos.java)
 Las clases Cliente y Pedidos representan la estructura de datos de los clientes y pedidos en el sistema.
 Estas entidades se asignan a las tablas de la base de datos mediante anotaciones de Hibernate.
+
+4. Clase Main
+La clase main es utilizada para probar el correcto funcionamiento de la aplicación. En ella probaremos las diferentes operaciones CRUD tanto de clientes como pedidos y comprobaremos que funcionen correctamente.
